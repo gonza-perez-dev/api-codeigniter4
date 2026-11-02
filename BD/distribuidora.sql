@@ -1,9 +1,9 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.3
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-10-2026 a las 23:23:45
+-- Tiempo de generación: 02-11-2026 a las 01:30:52
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -55,7 +55,12 @@ CREATE TABLE `productos` (
 --
 
 INSERT INTO `productos` (`id`, `nombre`, `descripcion`, `stock`, `precio`) VALUES
-(1, 'Talca', 'gaseosa de 3L sabor Cola', 15, 2600);
+(1, 'Coca Cola', 'Bebida sabor cola de 2.5L', 60, 4400),
+(2, 'Talca', 'gaseosa de 3L sabor Cola', 150, 2600),
+(3, 'Agua Mineral', 'Bidón de 5L de agua mineral tratada', 20, 1800),
+(4, 'Talca', 'gaseosa de 3L sabor Pomelo', 15, 2600),
+(5, 'Talca', 'gaseosa de 3L sabor Naranja', 15, 2600),
+(6, 'Fresh', 'Bebida sin gas 1.5L', 70, 1200);
 
 -- --------------------------------------------------------
 
@@ -107,7 +112,7 @@ ALTER TABLE `detalle_ventas`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `ventas`
