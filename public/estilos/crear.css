@@ -1,0 +1,80 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #e9f9ef;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #2d7a44;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 420px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #a8e6a3;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #2d602f;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #9ed49c;
+    border-radius: 8px;
+    background-color: #fafffa;
+    transition: 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #43c86f;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #36b262;
+    transform: scale(1.03);
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #2d7a44;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
